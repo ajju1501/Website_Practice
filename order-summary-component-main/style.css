@@ -1,0 +1,136 @@
+
+body{
+    display: block;
+    background-color: aliceblue;
+    background-image:url("/images/pattern-background-desktop.svg") ;
+    justify-items: center;
+    background-size: 1440px 437px;
+}
+#order-block{
+    display: block;
+    background-color: white;
+    height: 650px;
+    width: 450px;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow:10px 10px 10px rgb(188, 188, 188);
+}
+#top-picture{
+    background-image: url("/images/illustration-hero.svg");
+    height: 220px;
+    width: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+li{
+    list-style: none;
+}
+#head{
+    display: block;
+    margin-left: 90px;
+    font-family: 'Inter', serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 40px;
+    color: rgb(76, 78, 80);
+
+}
+#head2{
+    display: block;
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    width: 320px;
+    margin-left: 35px;
+    text-indent: 6px;
+    line-height: 30px;
+    color: rgb(140, 147, 154);
+    font-weight: 500;
+}
+#head3{
+    display: block;
+    /* margin-top: 30px; */
+    font-family:'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300 400 300;
+    font-style:normal;
+    width: 320px;
+    margin-left: 40px;
+    line-height: 30px;
+    color: rgb(140, 147, 154);
+    font-weight: 500;
+}
+#head4{
+    display: block;
+    /* margin-top: 30px; */
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 100 50 50; */
+    font-style:normal;
+    width: 300px;
+    margin-left: 40px;
+    text-indent: 80px;
+    line-height: 30px;
+    color: rgb(140, 147, 154);
+    font-weight: 500;
+}
+#offer{
+    display:flex;
+    background-color:hsl(225, 100%, 98%);
+    height: 90px;
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+#musictag{
+    background-image: url("/images/icon-music.svg");
+    height: 48px;
+    width: 48px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#plan-block{
+    display: block;
+    height: 80px;
+    margin-left:30px ;
+    line-height: 10px;
+    margin-top: 15px;
+    font-family: 'Inter',serif;
+}
+#offer2{
+    color: rgb(137, 133, 129);
+}
+#offer3{
+    margin-left: 100px;
+    margin-top: 18px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+
+}
+#pay{
+    display: block;
+    background-color:  hsl(245, 75%, 52%);
+    height: 45px;
+    width: 350px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 100px;
+    align-content: center;
+    text-indent: 90px;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px rgb(213, 207, 207);
+    margin-left: 10px;
+    font-family: 'Inter',serif;
+}
+#cancel{
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family: 'Inter',serif;
+    color: rgb(151, 147, 142);
+    font-weight: bold;
+}
