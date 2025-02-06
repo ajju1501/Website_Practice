@@ -1,0 +1,75 @@
+@font-face{
+    font-family: myFirstfont;
+    src: local(url(assets/fonts/Inter-VariableFont_slnt,wght.ttf));
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    border-radius: 50%;
+}
+.profile{
+    display: block;
+    width: 450px;
+    height: 600px;
+    padding: 5px;
+    border: 1px;
+    background-color:rgb(49, 48, 48);
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    border-radius: 5%;
+    font-family: "Inter", serif;
+}
+ol{
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+}
+#li0{
+    display: block;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-right: 15%;
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: x-large;
+    font-family: "Inter", serif;
+}
+#li1{
+    display: block;
+    background-color: rgb(71, 68, 68);
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 350px;
+    margin-top: 5px;
+    margin-right: 10%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+}
+#li2{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    margin-right: 15%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Inter", serif;
+}
+#li3{
+    display: block;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-right: 15%;
+    text-align: center;
+    color: yellow;
+    font-size:0.9em;
+    font-family: "Inter", serif;
+}
